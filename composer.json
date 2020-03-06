@@ -1,0 +1,27 @@
+{
+    "name": "nick-kh/larapack-role-permissions",
+    "description": "GUI to create Roles, Permissions and Assign permission to role pages",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick",
+            "email": "nikakharadze@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LaraPack\\RolePermission\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaraPack\\RolePermission\\RolePermissionServiceProvider"
+            ]
+        }
+    }
+
+}
